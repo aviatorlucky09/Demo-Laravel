@@ -1,0 +1,960 @@
+html {
+    scroll-behavior: smooth;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button:focus,
+.form-control {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: #64C6E3;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.btn-danger {
+    background-color: #ED495A;
+}
+
+.btn-warning {
+    background-color: #F5A331;
+    color: white;
+}
+
+.btn-warning:hover {
+    color: white;
+}
+
+header {
+    background-color: #64C6E3;
+    position: sticky;
+    top: 0px;
+    z-index: 500;
+}
+
+header .navbar {
+    padding: 0px;
+}
+
+header .navbar .navbar-nav li .nav-link {
+    color: #ffffff;
+    font-weight: 500;
+    padding: 2px 3px;
+    margin: 0px 19px;
+    transition: 0.3s;
+}
+
+header .navbar .navbar-nav li .nav-link:hover {
+    color: #ED495A;
+}
+
+header .navbar .navbar-nav li.active .nav-link {
+    color: #ED495A;
+    border-bottom: 2px solid #ED495A;
+}
+
+header .logo {
+    width: 180px;
+}
+
+.navbar-toggler-icon {
+    margin-top: 10px;
+}
+
+.navbar-toggler-icon span {
+    border-top: 1px solid white;
+    display: block;
+    margin-bottom: 9px;
+    transition: 0.5s;
+}
+
+.navbar-toggler .line-1 {
+    transform: rotate(45deg);
+    margin-top: 11px;
+}
+
+.navbar-toggler.collapsed .line-1 {
+    transform: none;
+    margin-top: unset;
+}
+
+.navbar-toggler .line-2 {
+    display: none;
+}
+
+.navbar-toggler.collapsed .line-2 {
+    display: block;
+}
+
+.navbar-toggler .line-3 {
+    transform: rotate(-45deg);
+    margin-top: -11px;
+}
+
+.navbar-toggler.collapsed .line-3 {
+    transform: none;
+    margin-top: unset;
+}
+
+.header-btn .btn-danger {
+    font-size: 16px;
+}
+
+.header-btn .btn-light {
+    padding: 5.5px 15px;
+    display: inline-flex;
+    color: #64c6e3;
+    align-items: center;
+    margin-left: 15px !important;
+    background-color: #ffffff;
+    border-radius: 8px !important;
+}
+
+.header-btn .btn-light .fa-bars {
+    font-size: 24px;
+}
+
+.header-btn .btn-light .fa-user {
+    margin-left: 20px;
+    background-color: #64c6e3;
+    height: 29px;
+    width: 29px;
+    display: inline-grid;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 15px;
+}
+
+.header-btn .dropdown-menu .dropdown-item {
+    font-size: 14px;
+}
+
+header .navbar-collapse {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.home-banner {
+    position: relative;
+    height: 85vh;
+    min-height: 500px;
+}
+
+.banner-img {
+    height: 100%;
+    width: 100%;
+}
+
+.img-overly {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 46, 111, 0.5);
+}
+
+.home-search {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.home-search h1 {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.search-row {
+    background-color: white;
+    padding: 12px 5px;
+    border-radius: 15px;
+}
+
+.search-row .col-md-3 {
+    padding-top: 12px;
+}
+
+.search-row .col-md-3:nth-child(2),
+.search-row .col-md-3:nth-child(3) {
+    border-left: 1px solid #221F1F;
+}
+
+.search-row label {
+    position: absolute;
+    top: 2px;
+    left: 28px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #515C6D;
+}
+
+.search-row .form-control {
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.search-row .btn-danger {
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+}
+
+.search-row .btn-danger span {
+    margin-left: 15px;
+}
+
+.heading-h1 h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+    color: #64C6E3;
+}
+
+.heading-h1 hr {
+    border-top: 3px solid #64C6E3;
+    width: 100px;
+    margin-left: 0px;
+}
+
+.boat-listing-div {
+    border-radius: 15px;
+    border: 1px solid #CFD6F0;
+    margin-bottom: 20px;
+}
+
+.list-img-div {
+    height: 220px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.list-img-div:before {
+    content: " ";
+    position: absolute;
+    border-radius: 15px 15px 0px 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 46, 111, 0.3);
+}
+
+.list-img-div .hart-icon {
+    font-size: 20px;
+    color: #F5A331;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+}
+
+.list-img-div .star-div {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 15px;
+    color: #F5A331;
+}
+
+.list-img-div .star-div i {
+    float: left;
+}
+
+.list-descript-div {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 5px 24px 0px #222C411F;
+    position: relative;
+    margin-top: -15px;
+}
+
+.list-descript-div h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #64C6E3;
+    margin-bottom: 11px;
+}
+
+.list-descript-div hr {
+    width: 30px;
+    border-top: 2px solid #64C6E3;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.list-descript-div .icon-list li {
+    list-style: none;
+    color: #515C6D;
+    margin-bottom: 12px;
+}
+
+.list-descript-div .icon-list li span {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.list-descript-div .icon-list li .icon-div-list {
+    width: 25px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.rent-boat-section-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.rent-boat-section-div:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 46, 111, 0.5);
+}
+
+.rent-boat-section-div .heading {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+}
+
+.rent-boat-section-div .hr {
+    border-top: 3px solid white;
+    width: 100px;
+}
+
+.rent-boat-section-div .text-p {
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+
+.boat-block-div {
+    position: relative;
+    height: 240px;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.boat-block-div .shape-1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.boat-block-div .shape-2 {
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    z-index: 0;
+}
+
+.boat-block-div .icon-shape {
+    position: absolute;
+    top: 42px;
+    left: 12px;
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+    background-color: #F5A331;
+    z-index: 2;
+    color: white;
+    font-size: 32px;
+    align-items: center;
+    display: grid;
+    text-align: center;
+}
+
+.boat-block-div h1 {
+    color: #ED495A;
+    font-size: 72px;
+    position: absolute;
+    top: 47px;
+    z-index: 2;
+    font-weight: bold;
+    right: 68px;
+}
+
+.boat-block-div h2 {
+    font-size: 18px;
+    color: #64c6e3;
+    position: absolute;
+    top: 135px;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    text-align: center;
+    width: 60%;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.boat-type-div {
+    height: 220px;
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 60px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.boat-type-div:before {
+    content: " ";
+    position: absolute;
+    border-radius: 15px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 46, 111, 0.5);
+}
+
+.boat-type-div span {
+    position: absolute;
+    font-family: 'Raleway', sans-serif;
+    bottom: -25px;
+    width: 82%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    font-size: 20px;
+    font-weight: 700;
+    color: #64c6e3;
+    padding: 11px 5px;
+    box-shadow: 0px 5px 10px 0px #222C411F;
+}
+
+.markrtplace-section-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+
+.markrtplace-section-div:before {
+    content: " ";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.markrtplace-section-div .heading {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    font-weight: 800;
+    color: white;
+}
+
+.markrtplace-section-div .text-p {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.destinations-div {
+    height: 260px;
+    width: 100%;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding: 25px;
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.destinations-div:before {
+    content: " ";
+    position: absolute;
+    border-radius: 15px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 46, 111, 0.5);
+}
+
+.destinations-div h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #64C6E3;
+    position: relative;
+}
+
+.destinations-div hr {
+    border-top: 2px solid #64C6E3;
+    width: 50px;
+    margin-left: 0px;
+    position: relative;
+}
+
+.destinations-div p {
+    color: white;
+    font-size: 15px;
+    line-height: 28px;
+    font-weight: 400;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.operators-section {
+    background-color: #EFF2F6;
+}
+
+.oprator-slider-div {
+    background-color: #E8EFF8;
+    border: 1px solid #D1DCEF;
+    padding: 0px 20px;
+    border-radius: 15px;
+    margin-top: 55px;
+    transition: 1s;
+    box-shadow: none;
+}
+
+.operators-slider .center .oprator-slider-div {
+    background-color: white;
+    box-shadow: 0px 0px 30px 0px #222C411A;
+}
+
+.oprator-slider-div img {
+    height: 134px;
+    width: 134px !important;
+    margin: 0 auto;
+    display: block;
+    margin-top: -55px;
+}
+
+.oprator-slider-div p {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 15px;
+    color: #515C6D;
+}
+
+.oprator-slider-div h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    color: #64C6E3;
+}
+
+.oprator-slider-div h5 {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    color: #ED495A;
+}
+
+.oprator-slider-div .btn-warning {
+    border-radius: 10px 10px 0px 0px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.operators-slider .owl-dots {
+    margin-top: 25px !important;
+}
+
+.operators-slider.owl-theme .owl-dots .owl-dot span {
+    height: 12px !important;
+    width: 12px !important;
+    margin: 5px 5px !important;
+    background-color: #64C6E3;
+    transform: 0.5s;
+}
+
+.operators-slider.owl-theme .owl-dots .active.owl-dot span {
+    background-color: #ED495A;
+}
+
+footer {
+    background-color: #64C6E3;
+    color: white;
+}
+
+.footer-about-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.footer-social h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.footer-social ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-social ul li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-social ul li a {
+    height: 42px;
+    width: 42px;
+    background-color: white;
+    display: grid;
+    border-radius: 50%;
+    color: #64C6E3;
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-link h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.footer-link ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-link ul li {
+    list-style: none;
+}
+
+.footer-link ul li a {
+    color: white;
+    font-size: 18px;
+    line-height: 40px;
+    transition: 0.3s;
+}
+
+.footer-link ul li a:hover {
+    color: #ED495A;
+}
+
+.footer-link ul li a i {
+    margin-right: 15px;
+}
+
+.footer-rights-reserved {
+    background-color: #F5A331;
+    color: white;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.section-bg-color {
+    background-color: #EFF2F6;
+}
+
+.listing-h1 {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: #2C419A;
+}
+
+
+/*----------------------------------------------- boat list css */
+
+.map-toggel {
+    height: 26px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: #CFD6F0;
+    border-radius: 50px;
+    align-items: center;
+    display: grid;
+    position: relative;
+    cursor: pointer;
+}
+
+.map-toggel .dot-toggel {
+    height: 20px;
+    width: 20px;
+    background-color: #FFFFFF;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    transition: 0.3s;
+}
+
+.map-toggel.active-map-toggel {
+    background-color: #64C6E3;
+}
+
+.map-toggel.active-map-toggel .dot-toggel {
+    left: 25px;
+}
+
+.custom-input-div {
+    margin-bottom: 10px;
+}
+
+.custom-input-div .input-group {
+    border: 1px solid #CFD6F0;
+    border-radius: 5px;
+}
+
+.custom-input-div .input-group-text {
+    background-color: white;
+    border: none;
+    color: #64C6E3;
+    width: 38px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.custom-input-div .form-control {
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding-left: 1px;
+}
+
+.listing-main-div {
+    border: 1px solid #CFD6F0;
+    border-radius: 15px;
+    box-shadow: 0px 5px 24px rgba(34, 44, 65, 0.12);
+    margin-bottom: 20px;
+}
+
+.listing-img-div {
+    position: relative;
+}
+
+.listing-img-div .hart-icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+    font-size: 18px;
+    color: #F5A331;
+}
+
+.listing-img-div .noti-icon-div {
+    position: absolute;
+    right: 10px;
+    top: 12px;
+    z-index: 1;
+    background: rgba(27, 46, 111, 0.5);
+    border-radius: 8px;
+    font-size: 12px;
+    color: white;
+    padding: 2px 8px;
+}
+
+.listing-img-div .noti-icon-div i {
+    color: #F5A331;
+    margin-left: 5px;
+}
+
+.listing-img-div .price-tag-1 {
+    position: absolute;
+    right: 10px;
+    bottom: 25px;
+    z-index: 1;
+    background-color: white;
+    color: #64C6E3;
+    padding: 2px 8px;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.listing-img {
+    height: 220px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 14px 14px 0px 0px;
+}
+
+.listing-img-slider.owl-theme .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.listing-img-slider.owl-theme .owl-dots .owl-dot span {
+    margin: 0px 4px;
+    height: 9px;
+    width: 9px;
+    background-color: #ffffff;
+    opacity: 0.6;
+}
+
+.listing-img-slider.owl-theme .owl-dots .owl-dot.active span,
+.listing-img-slider.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #ffffff;
+    opacity: 1;
+}
+
+.listing-discript {
+    padding: 15px;
+    background-color: white;
+    border-radius: 15px;
+    margin-top: -15px;
+    z-index: 2;
+    position: relative;
+}
+
+.listing-discript h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #64C6E3;
+}
+
+.icon-bl-div {
+    margin: 15px 0px;
+}
+
+.icon-bl-div span {
+    height: 22px;
+    width: 22px;
+    background-color: #64C6E3;
+    font-size: 12px;
+    display: inline-grid;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.book-n-bl-btn-1 {
+    padding: 2px 8px;
+    background-color: #2C419A;
+    font-size: 11px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.book-n-bl-btn-2 {
+    padding: 2px 8px;
+    background-color: #28A745;
+    font-size: 11px;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.lisitng-pagi-div .page-link {
+    margin: 0 5px;
+    background-color: white;
+    border-radius: 8px !important;
+    color: #ED495A;
+    border: none;
+}
+
+.lisitng-pagi-div .active .page-link {
+    background-color: #ED495A;
+    color: white;
+}
+
+.map-listing-page {
+    height: 100vh;
+    position: sticky;
+    top: 20px;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.map-col-lising.col-md-12 {
+    transform: translateX(-52px);
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    display: none;
+}
+
+.map-col-lising.col-md-6 {
+    transform: translateX(0px);
+    opacity: 1;
+    visibility: visible;
+}
+
+.advanced-fiter-text i {
+    display: none;
+}

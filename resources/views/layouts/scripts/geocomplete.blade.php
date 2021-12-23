@@ -1,0 +1,1 @@
+<script src="{{ asset('assets/js/jquery.geocomplete.min.js') }}"></script>

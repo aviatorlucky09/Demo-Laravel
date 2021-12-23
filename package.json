@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "axios": "^0.21.1",
+        "bootstrap": "^4.6.0",
+        "jquery": "^3.6.0",
+        "laravel-mix": "^6.0.23",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.16.1",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.35.1",
+        "sass-loader": "^12.1.0",
+        "vue": "^2.6.14",
+        "vue-loader": "^15.9.7",
+        "vue-template-compiler": "^2.6.14"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^5.15.4",
+        "admin-lte": "^3.1.0",
+        "font-awesome": "^4.7.0",
+        "intl-tel-input": "^17.0.13",
+        "jquery-lazyload": "^1.9.7",
+        "jquery-toast-plugin": "^1.3.2",
+        "moment": "^2.29.1",
+        "object-to-formdata": "^4.1.0",
+        "owl.carousel": "^2.3.4",
+        "toastr": "^2.1.4",
+        "vform": "^2.1.0",
+        "vue-router": "^3.5.1"
+    }
+}

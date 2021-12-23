@@ -1,0 +1,102 @@
+@media (max-width: 320px) {
+    .btn {
+        padding: 7px 12px;
+    }
+}
+
+
+@media (max-width: 575.98px) {
+    header .logo {
+        width: 110px;
+    }
+
+    .header-btn {
+        margin-top: 10px;
+    }
+
+    .home-search {
+        bottom: 15px;
+    }
+
+    .home-banner {
+        height: 35vh;
+    }
+
+    .home-search h1 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .search-row .col-md-3 {
+        padding-top: 0px;
+    }
+
+    .search-row label {
+        display: none;
+    }
+
+    .search-row .btn-danger span {
+        display: none;
+    }
+
+    .search-row {
+        padding: 8px 5px;
+    }
+
+    .search-row .col-md-3:nth-child(2),
+    .search-row .col-md-3:nth-child(3) {
+        display: none;
+    }
+
+    .heading-h1 h1 {
+        font-size: 24px;
+    }
+
+    .markrtplace-section-div .heading {
+        font-size: 30px;
+    }
+
+    .markrtplace-section-div .text-p {
+        width: 100%;
+        line-height: 25px;
+        font-size: 16px;
+    }
+
+    .destinations-div p {
+        line-height: 18px;
+    }
+
+    .footer-link h1 {
+        margin-top: 20px;
+        margin-bottom: 7px;
+    }
+
+    .footer-link ul li a {
+        line-height: 30px;
+    }
+
+    .footer-rights-reserved {
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+
+    .boat-type-div span {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+     
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+     
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+   
+}
+
+@media (min-width: 1200px) {
+     
+}
